@@ -13,7 +13,16 @@
     <script src="https://gru2007.github.io/pages-test/legacy/browser.js" type="module"></script>
     <script type="module">
       window.onload = function() {
-        renderDocsGPTWidget('app');
+        renderDocsGPTWidget('app', {
+              apiHost: 'https://api-ai.1nzti.ru',
+              apiKey:"",
+              avatar: 'https://1nzti.ru/upload/CAllcorp3Metal/24f/vi1aamfy3fovbls358ndaqeazf9ol91n/logo_nzti_svet_2.png',
+              title: 'Консультация',
+              description: "ИИ-помощник со всей информацией",
+              heroTitle: 'Добро пожаловать в помощника',
+              heroDescription: 'Этот ИИ содержит всю необходимую информацию о компании',
+              showSources: false
+            });
       }
     </script>
   </body>
